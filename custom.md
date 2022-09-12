@@ -68,6 +68,15 @@
 
 ## Zsh
 
+### Installing on Fedora
+
+1. `sudo dnf install zsh`
+2. `sudo dnf install util-linux-user`
+3. `chsh -s $(which zsh)`
+4. `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+5. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#getting-started)
+6. Restart your machine
+
 ### Installing on Ubuntu
 
 1. `sudo apt install zsh`
